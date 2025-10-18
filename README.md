@@ -19,7 +19,7 @@ A modern, responsive web solution for Kereyu Hotel built to showcase rooms, amen
 * Informational pages: dining, spa, contact, about, location
 * A clean, maintainable **codebase** and modular frontend architecture
 
-OMera Technologies led the full development design, front end, deployment, and integration.
+OMERA Technologies led the full development design, front end, deployment, and integration.
 
 ---
 
@@ -48,9 +48,6 @@ The project is built using modern web tools and follows best practices:
 * **Responsive breakpoints**, **lazy loading** images, and performance optimization
 * **ESLint / Prettier** for linting and formatting
 * Well-organized folder structure (e.g. `src/`, `public/`, `components/`)
-
-Feel free to tweak according to your actual stack (React vs. Vue vs. Svelte, etc.).
-
 ---
 
 ## 4. Getting Started
@@ -107,8 +104,6 @@ kereyu-hotel/
 └── README.md
 ```
 
-You can adjust as necessary for your framework or project style.
-
 ---
 
 ## 6. Usage & Customization
@@ -140,7 +135,7 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ## 9. About OMera Technologies
 
-OMera Technologies is a forward-thinking software development firm dedicated to delivering high-quality digital solutions. Our strengths include:
+OMERA Technologies is a forward-thinking software development firm dedicated to delivering high-quality digital solutions. Our strengths include:
 
 * Web & mobile application development
 * UX/UI design
@@ -161,5 +156,6 @@ If you have any questions, suggestions, or need support:
 * **GitHub**: [https://github.com/OMERA-TECHNOLOGY](https://github.com/OMERA-TECHNOLOGY)
 
 Thanks for checking out the **Kereyu Hotel** project. We hope it serves your hospitality vision well!
+
 
 
