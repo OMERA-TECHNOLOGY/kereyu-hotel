@@ -1,6 +1,6 @@
 # Kereyu Hotel Web Application
 
-*by OMera Technologies*
+*by OMERA Technologies*
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 
@@ -161,4 +161,5 @@ If you have any questions, suggestions, or need support:
 * **GitHub**: [https://github.com/OMERA-TECHNOLOGY](https://github.com/OMERA-TECHNOLOGY)
 
 Thanks for checking out the **Kereyu Hotel** project. We hope it serves your hospitality vision well!
+
 
