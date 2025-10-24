@@ -1,6 +1,6 @@
 # Kereyu Hotel Web Application
 
-*by OMERA Technologies*
+_by OMERA Technologies_
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 
@@ -12,12 +12,12 @@ A modern, responsive web solution for Kereyu Hotel built to showcase rooms, amen
 
 **Kereyu Hotel** is a hospitality client seeking a full-featured web presence. The goal of this project is to deliver:
 
-* A **beautiful, responsive website** to reflect the hotel’s brand and luxury image
-* **Room listings** with details (amenities, pricing, availability)
-* **Booking capability or inquiry forms**
-* A **gallery / media showcase** of rooms, dining, spa, and environs
-* Informational pages: dining, spa, contact, about, location
-* A clean, maintainable **codebase** and modular frontend architecture
+- A **beautiful, responsive website** to reflect the hotel’s brand and luxury image
+- **Room listings** with details (amenities, pricing, availability)
+- **Booking capability or inquiry forms**
+- A **gallery / media showcase** of rooms, dining, spa, and environs
+- Informational pages: dining, spa, contact, about, location
+- A clean, maintainable **codebase** and modular frontend architecture
 
 OMERA Technologies led the full development design, front end, deployment, and integration.
 
@@ -41,27 +41,28 @@ OMERA Technologies led the full development design, front end, deployment, and i
 
 The project is built using modern web tools and follows best practices:
 
-* **TypeScript** as the primary language
-* **Vite** as the build tool / dev server
-* **Tailwind CSS** (or equivalent) for utility-first styling
-* Component-based structure (e.g. React, Vue, Svelte, or framework you used)
-* **Responsive breakpoints**, **lazy loading** images, and performance optimization
-* **ESLint / Prettier** for linting and formatting
-* Well-organized folder structure (e.g. `src/`, `public/`, `components/`)
+- **TypeScript** as the primary language
+- **Vite** as the build tool / dev server
+- **Tailwind CSS** (or equivalent) for utility-first styling
+- Component-based structure (e.g. React, Vue, Svelte, or framework you used)
+- **Responsive breakpoints**, **lazy loading** images, and performance optimization
+- **ESLint / Prettier** for linting and formatting
+- Well-organized folder structure (e.g. `src/`, `public/`, `components/`)
+
 ---
 
 ## 4. Getting Started
 
 ### Prerequisites
 
-* Node.js (v16+)
-* npm or yarn
+- Node.js (v16+)
+- npm or yarn
 
 ### Installation
 
 ```bash
-git clone https://github.com/OMERA-TECHNOLOGY/kereyu-hotel.git
-cd kereyu-hotel
+git clone https://github.com/OMERA-TECHNOLOGY/Kereyu-hotel.git
+cd Kereyu-hotel
 npm install        # or yarn install
 ```
 
@@ -90,7 +91,7 @@ You may deploy using static site hosts (Netlify, Vercel) or your preferred serve
 ## 5. Directory Structure (Suggested)
 
 ```
-kereyu-hotel/
+Kereyu-hotel/
 ├── public/              # static assets (images, favicon, etc.)
 ├── src/
 │   ├── components/      # reusable UI components (header, footer, room card, etc.)
@@ -108,10 +109,10 @@ kereyu-hotel/
 
 ## 6. Usage & Customization
 
-* **Adding rooms**: Add entries (data or JSON) in your room data source and ensure components fetch and render them.
-* **Updating images**: Place images into `public/` and reference them in room or gallery components.
-* **Styling override**: You can customize Tailwind config (colors, fonts) or add custom CSS modules.
-* **Booking integration**: Replace the inquiry form with backend API integration (e.g. REST, GraphQL) for live booking support.
+- **Adding rooms**: Add entries (data or JSON) in your room data source and ensure components fetch and render them.
+- **Updating images**: Place images into `public/` and reference them in room or gallery components.
+- **Styling override**: You can customize Tailwind config (colors, fonts) or add custom CSS modules.
+- **Booking integration**: Replace the inquiry form with backend API integration (e.g. REST, GraphQL) for live booking support.
 
 ---
 
@@ -137,11 +138,11 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 OMERA Technologies is a forward-thinking software development firm dedicated to delivering high-quality digital solutions. Our strengths include:
 
-* Web & mobile application development
-* UX/UI design
-* System integrations and APIs
-* Performance optimization and scalability
-* Client-focused delivery and support
+- Web & mobile application development
+- UX/UI design
+- System integrations and APIs
+- Performance optimization and scalability
+- Client-focused delivery and support
 
 We believe in **clean code**, **modular architecture**, and **beautiful experiences**.
 
@@ -151,11 +152,8 @@ We believe in **clean code**, **modular architecture**, and **beautiful experien
 
 If you have any questions, suggestions, or need support:
 
-* **Email**: [contact@omeratech.com](mailto:contact@omeratech.com)
-* **Website**: [www.omeratech.com](http://www.omeratech.com)
-* **GitHub**: [https://github.com/OMERA-TECHNOLOGY](https://github.com/OMERA-TECHNOLOGY)
+- **Email**: [contact@omeratech.com](mailto:contact@omeratech.com)
+- **Website**: [www.omeratech.com](http://www.omeratech.com)
+- **GitHub**: [https://github.com/OMERA-TECHNOLOGY](https://github.com/OMERA-TECHNOLOGY)
 
 Thanks for checking out the **Kereyu Hotel** project. We hope it serves your hospitality vision well!
-
-
-

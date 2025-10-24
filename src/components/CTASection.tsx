@@ -11,7 +11,7 @@ const CTASection = () => {
     e.preventDefault();
     if (email) {
       toast({
-        title: "Welcome to Kerayu",
+        title: "Welcome to Kereyu",
         description: "Thank you for subscribing to our newsletter.",
       });
       setEmail("");
@@ -24,7 +24,7 @@ const CTASection = () => {
       <div className="absolute inset-0">
         <img
           src={ctaBg}
-          alt="Kerayu at night"
+          alt="Kereyu at night"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-foreground/70"></div>
@@ -37,11 +37,15 @@ const CTASection = () => {
             Your Unforgettable Stay Awaits
           </h2>
           <p className="text-xl text-background/90 mb-12 font-light">
-            Join our community and receive exclusive offers, seasonal packages, and inspiration for your next escape
+            Join our community and receive exclusive offers, seasonal packages,
+            and inspiration for your next escape
           </p>
 
           {/* Email Capture Form */}
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto mb-8">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto mb-8"
+          >
             <Input
               type="email"
               placeholder="Enter your email"

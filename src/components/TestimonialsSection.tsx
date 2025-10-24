@@ -6,26 +6,30 @@ const testimonials = [
     name: "Sarah Mitchell",
     role: "Travel Blogger",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
-    quote: "Kerayu exceeded every expectation. The attention to detail, from the moment we arrived until our reluctant departure, was extraordinary. The seamless blend of luxury and natural beauty created an experience I'll treasure forever."
+    quote:
+      "Kereyu exceeded every expectation. The attention to detail, from the moment we arrived until our reluctant departure, was extraordinary. The seamless blend of luxury and natural beauty created an experience I'll treasure forever.",
   },
   {
     name: "James Chen",
     role: "Executive",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=James",
-    quote: "As someone who travels extensively for business, I can confidently say Kerayu sets a new standard for luxury hospitality. The conference facilities were impeccable, and the spa treatments helped me achieve the perfect work-life balance."
+    quote:
+      "As someone who travels extensively for business, I can confidently say Kereyu sets a new standard for luxury hospitality. The conference facilities were impeccable, and the spa treatments helped me achieve the perfect work-life balance.",
   },
   {
     name: "Emma & David Taylor",
     role: "Honeymooners",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",
-    quote: "Our honeymoon at Kerayu was absolutely magical. Every moment felt like it was designed just for us. The sunset yacht cruise, private beach dinners, and couples spa treatments created memories we'll cherish for a lifetime."
+    quote:
+      "Our honeymoon at Kereyu was absolutely magical. Every moment felt like it was designed just for us. The sunset yacht cruise, private beach dinners, and couples spa treatments created memories we'll cherish for a lifetime.",
   },
   {
     name: "Dr. Michael Rodriguez",
     role: "Physician",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
-    quote: "After a demanding year, Kerayu provided the perfect sanctuary for restoration. The combination of world-class amenities, thoughtful service, and natural serenity helped me truly disconnect and recharge."
-  }
+    quote:
+      "After a demanding year, Kereyu provided the perfect sanctuary for restoration. The combination of world-class amenities, thoughtful service, and natural serenity helped me truly disconnect and recharge.",
+  },
 ];
 
 const TestimonialsSection = () => {
@@ -36,7 +40,7 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-serif text-foreground mb-4">
-            Voices of Kerayu
+            Voices of Kereyu
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Hear from those who have experienced our sanctuary
@@ -91,12 +95,18 @@ const TestimonialsSection = () => {
                   }`}
                 />
                 <div className="text-left">
-                  <p className={`font-medium ${
-                    index === activeIndex ? "text-foreground" : "text-muted-foreground"
-                  }`}>
+                  <p
+                    className={`font-medium ${
+                      index === activeIndex
+                        ? "text-foreground"
+                        : "text-muted-foreground"
+                    }`}
+                  >
                     {testimonial.name}
                   </p>
-                  <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {testimonial.role}
+                  </p>
                 </div>
               </button>
             ))}

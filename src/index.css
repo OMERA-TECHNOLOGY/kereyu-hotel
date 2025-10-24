@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Light Mode - Kerayu Luxury Palette */
+    /* Light Mode - Kereyu Luxury Palette */
     --background: 60 100% 97%;
     --foreground: 0 0% 16%;
 
@@ -50,7 +50,7 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Dark Mode - Kerayu Luxury Palette */
+    /* Dark Mode - Kereyu Luxury Palette */
     --background: 0 0% 16%;
     --foreground: 60 100% 97%;
 
@@ -93,34 +93,38 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cormorant Garamond', serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
   }
 
   .font-cursive {
-    font-family: 'Allura', cursive;
+    font-family: "Allura", cursive;
   }
 
   /* Organic texture overlay */
   .texture-overlay::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: 
-      repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(255, 255, 255, 0.03) 2px,
-        rgba(255, 255, 255, 0.03) 4px
-      );
+    background-image: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.03) 2px,
+      rgba(255, 255, 255, 0.03) 4px
+    );
     pointer-events: none;
     opacity: 0.5;
   }

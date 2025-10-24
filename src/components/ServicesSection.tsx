@@ -12,8 +12,8 @@ const services = [
       "Capacity for 200 guests",
       "Full A/V support & high-speed connectivity",
       "Dedicated event planner",
-      "Natural lighting & ocean views"
-    ]
+      "Natural lighting & ocean views",
+    ],
   },
   {
     title: "Vista Wedding Venue",
@@ -22,8 +22,8 @@ const services = [
       "Beachfront ceremony settings",
       "Customizable reception spaces",
       "Expert wedding coordination",
-      "Gourmet catering & floral design"
-    ]
+      "Gourmet catering & floral design",
+    ],
   },
   {
     title: "Serenity Spa",
@@ -32,8 +32,8 @@ const services = [
       "Ancient wellness traditions",
       "Signature treatments & therapies",
       "Private treatment suites",
-      "Natural botanical products"
-    ]
+      "Natural botanical products",
+    ],
   },
   {
     title: "Private Yacht Charter",
@@ -42,9 +42,9 @@ const services = [
       "Luxury vessel with full crew",
       "Customized itineraries",
       "Gourmet catering on board",
-      "Water sports & diving equipment"
-    ]
-  }
+      "Water sports & diving equipment",
+    ],
+  },
 ];
 
 const ServicesSection = () => {
@@ -61,7 +61,7 @@ const ServicesSection = () => {
             Curated Experiences
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Every moment at Kerayu is designed to inspire and delight
+            Every moment at Kereyu is designed to inspire and delight
           </p>
         </div>
 

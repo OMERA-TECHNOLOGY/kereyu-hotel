@@ -6,7 +6,7 @@ import heroSuite from "@/assets/hero-suite.jpg";
 import heroSpa from "@/assets/hero-spa.jpg";
 
 const slides = [
-  { image: heroExterior, alt: "Kerayu Hotel Exterior at Dusk" },
+  { image: heroExterior, alt: "Kereyu Hotel Exterior at Dusk" },
   { image: heroPool, alt: "Infinity Pool at Sunset" },
   { image: heroSuite, alt: "Luxury Suite Interior" },
   { image: heroSpa, alt: "Tranquil Spa Experience" },
@@ -46,7 +46,7 @@ const HeroSlider = () => {
       <div className="absolute inset-0 flex items-center justify-center text-center px-6">
         <div className="max-w-4xl animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-serif text-background mb-6 leading-tight">
-            Kerayu: Where Timeless Elegance Meets Serenity
+            Kereyu: Where Timeless Elegance Meets Serenity
           </h1>
           <p className="text-xl md:text-2xl text-background/90 mb-8 font-light">
             Experience luxury redefined on your private sanctuary
